@@ -35,11 +35,9 @@ I want more control!
 
 If you want to change what addresses mail is redirected to in each
 environment, then INSTEAD of calling setup_interceptor, place
-a block of code like this:
+a line of code like this:
 
-> ActionMailer::Base.register_interceptor(
->   MailRedirector.new("test@example.com")
-> )
+> ActionMailer::Base.register_interceptor(MailRedirector.new("test@example.com"))
 
 In each environment file, or wherever makes sense for you.
 
