@@ -4,7 +4,7 @@ Mail Redirector
 Installation
 ------------
 
-### In Your Gem File
+### In Your Gemfile
 
 > gem 'mail-redirector
 
@@ -41,4 +41,4 @@ a line of code like this:
 
 In each environment file, or wherever makes sense for you.
 
-Happy Redirecting!
+Happy redirecting!
