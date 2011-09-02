@@ -6,7 +6,7 @@ Installation
 
 ### In Your Gemfile
 
-> gem 'mail-redirector
+> gem 'mail-redirector'
 
 ### In config/initializers/mail-redirector.rb
 
